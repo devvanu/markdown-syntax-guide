@@ -7,13 +7,13 @@
 [Line Breaks](https://github.com/devvanu/markdown-syntax-guide/edit/main/README.md#line-breaks)  
 [Styling Texts](https://github.com/devvanu/markdown-syntax-guide/edit/main/README.md#styling-texts)  
 [Blockquotes](https://github.com/devvanu/markdown-syntax-guide/edit/main/README.md#blockquotes)  
-Quoting Code
+[Lists](https://github.com/devvanu/markdown-syntax-guide/edit/main/README.md#lists)  
+[Quoting Code](https://github.com/devvanu/markdown-syntax-guide/edit/main/README.md#quoting-code)  
 Horizontal Rule
 Syntax Highlighting
 Tables
 Links
 Images
-Lists
 Task Lists
 Footnotes
 Escape Sequence
@@ -140,3 +140,98 @@ This is __*italic & bold*__ text 4
 
 <!-- ========================= BLOCKQUOTES ====================== -->
 ## Blockquotes
+
+```
+> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, et?
+> 
+> Velit pariatur quidem similique sequi eius nihil quas vitae. Doloribus, vitae repellat.
+```
+Ouput:  
+
+> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, et?
+> 
+> Velit pariatur quidem similique sequi eius nihil quas vitae. Doloribus, vitae repellat.
+
+### #1 Nested Blockquotes
+
+```
+> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, et?
+> 
+>> Lorem ipsum dolor sit amet. 
+```
+Output:  
+
+> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, et?
+> 
+>> Lorem ipsum dolor sit amet. 
+
+### #2 Blockquotes with Other Elements
+
+```
+> #### Blockquotes Best Practices!
+> 
+> - Try to put blank line before...
+> - ... and after a blockquote.
+> 
+> Without *blank lines*, this might not look right.
+```
+Output:  
+
+> #### Blockquotes Best Practices!
+> 
+> - Try to put blank line before...
+> - ... and after a blockquote.
+> 
+> Without *blank lines*, this might not look right.
+
+<br/>
+
+<!-- ========================= LISTS ====================== -->
+## Lists
+
+### #1 Ordered Lists
+
+To create, add line items with numbers followed by periods. The numbers don’t have to be in numerical order, but the list should start with the number one.
+
+```
+1. Item 1
+2. Item 2
+3. Item 3
+    1. Sub-item 1
+    2. Sub-item 2
+5. Item 4
+```
+Ouput:  
+
+1. Item 1
+2. Item 2
+3. Item 3
+    1. Sub-item 1
+    2. Sub-item 2
+5. Item 4
+
+### #2 Unordered Lists
+
+To create, add dashes (-), asterisks (*), or plus signs (+) in front of line items.
+
+```
+- Item 1
+- Item 2
+    - Sub-item 1
+    - Sub-item 2
+- Item 3
+- Item 4
+```
+Output:  
+
+- Item 1
+- Item 2
+    - Sub-item 1
+    - Sub-item 2
+- Item 3
+- Item 4
+
+<br/>
+
+<!-- ========================= QUOTING CODE ====================== -->
+## Quoting Code
