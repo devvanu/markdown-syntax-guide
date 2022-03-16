@@ -1,6 +1,6 @@
 # Markdown Syntax Guide
 
-### Contents that will be covered here : 
+### Contents : 
 
 [Headings](https://github.com/devvanu/markdown-syntax-guide/edit/main/README.md#headings)  
 [Paragraphs](https://github.com/devvanu/markdown-syntax-guide/edit/main/README.md#paragraphs)  
