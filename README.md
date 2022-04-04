@@ -1,6 +1,6 @@
 # Markdown Syntax Guide
 
-### Contents : 
+### Basic Syntax (Index) : 
 
 [Headings](https://github.com/devvanu/markdown-syntax-guide/edit/main/README.md#headings)  
 [Paragraphs](https://github.com/devvanu/markdown-syntax-guide/edit/main/README.md#paragraphs)  
@@ -10,15 +10,20 @@
 [Lists](https://github.com/devvanu/markdown-syntax-guide/edit/main/README.md#lists)  
 [Quoting Code](https://github.com/devvanu/markdown-syntax-guide/edit/main/README.md#quoting-code)  
 Horizontal Rule
+Images
+Links
+
+### Advanced Syntax (Index) :  
+
 Syntax Highlighting
 Tables
-Links
-Images
 Task Lists
 Footnotes
 Escape Sequence
 Emoji
 Mentioning people and teams
+
+<br /> 
 
 *Note*: You can also create all the following markdown using HTML code.  
 
@@ -235,3 +240,45 @@ Output:
 
 <!-- ========================= QUOTING CODE ====================== -->
 ## Quoting Code
+
+### #1 Inline Code
+
+Put the the code or cmd within a sentence with single backticks or press `Ctrl/cmd`+`E` to insert the backticks for inline code.  
+
+```
+Use `git status` to list all new or modified files that haven't yet been committed.
+```
+
+Output:  
+
+Use `git status` to list all new or modified files that haven't yet been committed.
+
+### #2 Code Blocks
+
+##### Method 1- using triple backticks
+
+    Some basic Git Commands are:
+    ```
+    git init
+    git status
+    git add
+    ```
+
+Output:
+
+Some basic Git Commands are:
+```
+git init
+git status
+git add
+```
+
+##### Method 2- using spaces or tab
+
+    Normally indent the code with 4 spaces or one tab. (when they are in a list, indent them 8 spaces or 2 tabs)
+
+Output:
+
+    .container{
+        max-width: 1200px;
+    }
