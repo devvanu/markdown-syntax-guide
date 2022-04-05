@@ -8,10 +8,10 @@
 [Styling Texts](https://github.com/devvanu/markdown-syntax-guide/edit/main/README.md#styling-texts)  
 [Blockquotes](https://github.com/devvanu/markdown-syntax-guide/edit/main/README.md#blockquotes)  
 [Lists](https://github.com/devvanu/markdown-syntax-guide/edit/main/README.md#lists)  
-[Quoting Code](https://github.com/devvanu/markdown-syntax-guide/edit/main/README.md#quoting-code)  
-Horizontal Rule
-Images
-Links
+[Quoting Code](https://github.com/devvanu/markdown-syntax-guide/edit/main/README.md#quoting-code)    
+[Images](https://github.com/devvanu/markdown-syntax-guide/edit/main/README.md#images)  
+[Horizontal Rule](https://github.com/devvanu/markdown-syntax-guide/edit/main/README.md#horizontal-rule)   
+[Links](https://github.com/devvanu/markdown-syntax-guide/edit/main/README.md#links)  
 
 ### Advanced Syntax (Index) :  
 
@@ -25,7 +25,7 @@ Mentioning people and teams
 
 <br /> 
 
-*Note*: You can also create all the following markdown using HTML code.  
+**_Note_**: Many Markdown applications allow you to use HTML tags in Markdown-formatted text. So, you can also create all the following markdown using HTML code.  
 
 <br />
 
@@ -282,3 +282,59 @@ Output:
     .container{
         max-width: 1200px;
     }
+
+
+<br/>
+
+<!-- ========================= IMAGES ====================== -->
+## Images
+
+```
+![Alt Text](url)
+```
+
+Output: 
+
+![Linux](https://upload.wikimedia.org/wikipedia/commons/0/09/Tux%2C_gray%EF%BC%8Fgrey_background.png)
+
+<br/>
+
+<!-- ========================= HORIZONTAL RULE ====================== -->
+## Horizontal Rule
+
+can create using 3 or more asterisks (***), dashes (---), or underscores (___) on a line. It's good to put blank lines before and after horizontal rule.
+
+```
+***
+
+---
+
+_______________
+```
+
+Output (all three will look same):  
+
+***
+
+<br />
+
+<!-- ========================= Links ======================== -->
+## Links
+
+can create by enclosing link text in brackets and then follow it with URL in parantheses.
+
+```
+Search this on [Google](https://www.google.com/) instead.
+```
+
+Search this on [Google](https://www.google.com/) instead.
+
+### #1 Adding Titles to the Link
+
+You can add a title to a link by enclosing it in quotation marks after URL, but it's optional. This will appear as a tooltip when the user hovers over the link.
+
+```
+Search this on [Google](https://www.google.com/ "Google") instead.
+```
+
+### #2 URLs & Email Addresses
