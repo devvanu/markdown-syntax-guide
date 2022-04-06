@@ -12,6 +12,7 @@
 [Images](https://github.com/devvanu/markdown-syntax-guide/edit/main/README.md#images)  
 [Horizontal Rule](https://github.com/devvanu/markdown-syntax-guide/edit/main/README.md#horizontal-rule)   
 [Links](https://github.com/devvanu/markdown-syntax-guide/edit/main/README.md#links)  
+[Escaping Characters](https://github.com/devvanu/markdown-syntax-guide/edit/main/README.md#escaping-characters)   
 
 ### Advanced Syntax (Index) :  
 
@@ -329,7 +330,7 @@ Search this on [Google](https://www.google.com/) instead.
 
 Search this on [Google](https://www.google.com/) instead.
 
-### #1 Adding Titles to the Link
+#### Adding Titles to the Link
 
 You can add a title to a link by enclosing it in quotation marks after URL, but it's optional. This will appear as a tooltip when the user hovers over the link.
 
@@ -337,4 +338,48 @@ You can add a title to a link by enclosing it in quotation marks after URL, but 
 Search this on [Google](https://www.google.com/ "Google") instead.
 ```
 
-### #2 URLs & Email Addresses
+<br />
+
+<!-- ========================= ESCAPING CHARACTERS ======================== -->
+## Escaping Characters
+
+To display a literal character that would otherwise be used to format text, add a backslash ( \\ ) in front of the character.
+
+Those characters are: 
+```
+*   Asterisk
+\   Backslash
+`   Backtick
+{}  Curly braces
+()  Parentheses
+[]  Square brackets
+<>  Angle brackets
+.   Dot
+_   Underscore
+!   Exclamation mark
+#   Hash symbol
++   Plus symbol
+-   Hyphen symbol
+```
+
+Example:  
+
+```
++ Using Plus Symbol before escaping it
+```
+
+Output:  
+
++ Using Plus Symbol before escaping it  
+
+<br />
+
+Now see what will happen after escaping:   
+
+```
+\+ Using Plus Symbol as Plus after escaping it
+```
+
+Output:  
+
+\+ Using Plus Symbol as Plus after escaping it
