@@ -2,17 +2,17 @@
 
 ### Basic Syntax (Index) : 
 
-[Headings](https://github.com/devvanu/markdown-syntax-guide/edit/main/README.md#headings)  
-[Paragraphs](https://github.com/devvanu/markdown-syntax-guide/edit/main/README.md#paragraphs)  
-[Line Breaks](https://github.com/devvanu/markdown-syntax-guide/edit/main/README.md#line-breaks)  
-[Styling Texts](https://github.com/devvanu/markdown-syntax-guide/edit/main/README.md#styling-texts)  
-[Blockquotes](https://github.com/devvanu/markdown-syntax-guide/edit/main/README.md#blockquotes)  
-[Lists](https://github.com/devvanu/markdown-syntax-guide/edit/main/README.md#lists)  
-[Quoting Code](https://github.com/devvanu/markdown-syntax-guide/edit/main/README.md#quoting-code)    
-[Images](https://github.com/devvanu/markdown-syntax-guide/edit/main/README.md#images)  
-[Horizontal Rule](https://github.com/devvanu/markdown-syntax-guide/edit/main/README.md#horizontal-rule)   
-[Links](https://github.com/devvanu/markdown-syntax-guide/edit/main/README.md#links)  
-[Escaping Characters](https://github.com/devvanu/markdown-syntax-guide/edit/main/README.md#escaping-characters)   
+[Headings](#headings)  
+[Paragraphs](#paragraphs)  
+[Line Breaks](#line-breaks)  
+[Styling Texts](#styling-texts)  
+[Blockquotes](#blockquotes)  
+[Lists](#lists)  
+[Quoting Code](#quoting-code)    
+[Images](#images)  
+[Horizontal Rule](#horizontal-rule)   
+[Links](#links)  
+[Escaping Characters](#escaping-characters)   
 
 ### Advanced Syntax (Index) :  
 
@@ -30,7 +30,7 @@ Mentioning people and teams
 
 <br />
 
-<!-- ============================ HEADINGS ======================= -->
+<!-- =================================================== HEADINGS ============================================ -->
 ## Headings
 
 ### #1 Markdown Method- 
@@ -88,21 +88,21 @@ Heading 2
 
 <br/>
 
-<!-- ======================= PARAGAPHS ======================== -->
+<!-- ======================================== PARAGAPHS =============================================== -->
 ## Paragraphs
 
 To create paragraphs, use a blank line to separate one or more lines of text.
 
 <br/>
 
-<!-- ======================= LINE BREAKS ======================== -->
+<!-- ======================================= LINE BREAKS ================================================ -->
 ## Line Breaks
 
 To create a line break or new line, use trailing white space (two or more spaces) or the `<br>` HTML tag at the end of the line. 
 
 <br/>
 
-<!-- ========================= STYLING TEXTS ====================== -->
+<!-- ======================================== STYLING TEXTS ============================================= -->
 ## Styling Texts
 
 ### #1 Bold
@@ -144,7 +144,7 @@ This is __*italic & bold*__ text 4
 
 <br/>
 
-<!-- ========================= BLOCKQUOTES ====================== -->
+<!-- ============================================== BLOCKQUOTES ============================================== -->
 ## Blockquotes
 
 ```
@@ -192,7 +192,7 @@ Output:
 
 <br/>
 
-<!-- ========================= LISTS ====================== -->
+<!-- ================================================ LISTS ============================================= -->
 ## Lists
 
 ### #1 Ordered Lists
@@ -239,7 +239,7 @@ Output:
 
 <br/>
 
-<!-- ========================= QUOTING CODE ====================== -->
+<!-- ================================================ QUOTING CODE ============================================= -->
 ## Quoting Code
 
 ### #1 Inline Code
@@ -287,7 +287,7 @@ Output:
 
 <br/>
 
-<!-- ========================= IMAGES ====================== -->
+<!-- ============================================== IMAGES ============================================ -->
 ## Images
 
 ```
@@ -300,7 +300,7 @@ Output:
 
 <br/>
 
-<!-- ========================= HORIZONTAL RULE ====================== -->
+<!-- =========================================== HORIZONTAL RULE ====================================== -->
 ## Horizontal Rule
 
 can create using 3 or more asterisks (***), dashes (---), or underscores (___) on a line. It's good to put blank lines before and after horizontal rule.
@@ -319,7 +319,7 @@ Output (all three will look same):
 
 <br />
 
-<!-- ========================= Links ======================== -->
+<!-- ============================================ Links ============================================== -->
 ## Links
 
 can create by enclosing link text in brackets and then follow it with URL in parantheses.
@@ -330,7 +330,7 @@ Search this on [Google](https://www.google.com/) instead.
 
 Search this on [Google](https://www.google.com/) instead.
 
-#### Adding Titles to the Link
+### #1 Adding Titles to the Link
 
 You can add a title to a link by enclosing it in quotation marks after URL, but it's optional. This will appear as a tooltip when the user hovers over the link.
 
@@ -338,9 +338,26 @@ You can add a title to a link by enclosing it in quotation marks after URL, but 
 Search this on [Google](https://www.google.com/ "Google") instead.
 ```
 
+### #2 Sectional Links
+
+To create anchor links that jump down to different sections of a README. Steps are: 
+
+1. first create a heading:
+    ```
+    # Your Heading Name
+    ```
+2. The anchor link for that heading is the lowercase heading name with dashes where there are spaces. You can always get the anchor name by visiting that README file and clicking on the anchor that appears when you hover to the left of the heading. Copy everything starting from  '#':
+   ```
+   #your-heading-name
+   ```
+3. Wherever you want to link to that Heading section, put your desired text in brackets, followed by the anchor link in parentheses:
+    ```
+    [Click to Sectional Link for more](#your-heading-name)
+    ```
+
 <br />
 
-<!-- ========================= ESCAPING CHARACTERS ======================== -->
+<!-- ==================================== ESCAPING CHARACTERS ======================================== -->
 ## Escaping Characters
 
 To display a literal character that would otherwise be used to format text, add a backslash ( \\ ) in front of the character.
