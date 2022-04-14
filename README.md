@@ -2,21 +2,22 @@
 
 ### Basic Syntax (Index) : 
 
-[Headings](#headings)  
-[Paragraphs](#paragraphs)  
-[Line Breaks](#line-breaks)  
-[Styling Texts](#styling-texts)  
-[Blockquotes](#blockquotes)  
-[Lists](#lists)  
-[Quoting Code](#quoting-code)    
-[Images](#images)  
-[Horizontal Rule](#horizontal-rule)   
-[Links](#links)  
-[Escaping Characters](#escaping-characters)   
+- [Headings](#headings)  
+- [Paragraphs](#paragraphs)  
+- [Line Breaks](#line-breaks)  
+- [Styling Texts](#styling-texts)  
+- [Blockquotes](#blockquotes)  
+- [Lists](#lists)  
+- [Quoting Code](#quoting-code)    
+- [Images](#images)  
+- [Horizontal Rule](#horizontal-rule)   
+- [Links](#links)  
+- [Escaping Characters](#escaping-characters)   
 
 ### Advanced Syntax (Index) :  
 
-Syntax Highlighting
+- [Collapsible Section (Toggle)](#collapsible-section-toggle)         
+- Syntax Highlighting
 Tables
 Task Lists
 Footnotes
@@ -256,7 +257,7 @@ Use `git status` to list all new or modified files that haven't yet been committ
 
 ### #2 Code Blocks
 
-##### Method 1- using triple backticks
+#### Method 1- using triple backticks
 
     Some basic Git Commands are:
     ```
@@ -274,7 +275,7 @@ git status
 git add
 ```
 
-##### Method 2- using spaces or tab
+#### Method 2- using spaces or tab
 
     Normally indent the code with 4 spaces or one tab. (when they are in a list, indent them 8 spaces or 2 tabs)
 
@@ -399,4 +400,35 @@ Now see what will happen after escaping:
 
 Output:  
 
-\+ Using Plus Symbol as Plus after escaping it
+\+ Using Plus Symbol as Plus after escaping it  
+
+<br />
+
+<!-- ==================================== COLLAPSIBLE SECTION (toggle)  ======================================== -->
+## Collapsible Section (Toggle)  
+
+```
+<details>
+  <summary>Click to Expand!!</summary>
+    
+  ### Points:
+  1. Make sure to have empty line after \</summary\> tag.
+  2. Hidden Code Blocks:
+        ```
+        console.log('Hello World');
+        ```
+</details>
+```
+
+Output:  
+
+<details>
+  <summary>Click to Expand!!</summary>
+    
+  ### Points:
+  1. Make sure to have empty line after \</summary\> tag.
+  2. Hidden Code Blocks:
+        ```
+        console.log('Hello World');
+        ```
+</details>
