@@ -16,10 +16,10 @@
 
 ### Advanced Syntax (Index) :  
 
-- [Collapsible Section (Toggle)](#collapsible-section-toggle)         
-- Syntax Highlighting
-Tables
-Task Lists
+- [Collapsible Section (Toggle)](#collapsible-section-toggle)          
+- [Tables](#tables)
+- [Syntax Highlighting](#syntax-highlighting)
+- Task Lists
 Footnotes
 Escape Sequence
 Emoji
@@ -383,24 +383,24 @@ _   Underscore
 Example:  
 
 ```
-+ Using Plus Symbol before escaping it
++ Using Plus Symbol (as unorderd list) before escaping it
 ```
 
 Output:  
 
-+ Using Plus Symbol before escaping it  
++ Using Plus Symbol (as unorderd list) before escaping it  
 
 <br />
 
 Now see what will happen after escaping:   
 
 ```
-\+ Using Plus Symbol as Plus after escaping it
+\+ Using Plus Symbol (as Plus) after escaping it
 ```
 
 Output:  
 
-\+ Using Plus Symbol as Plus after escaping it  
+\+ Using Plus Symbol (as Plus) after escaping it  
 
 <br />
 
@@ -432,3 +432,45 @@ Output:
         console.log('Hello World');
         ```
 </details>
+
+<br />
+
+<!-- ==================================== TABLES ======================================== -->
+## Tables
+
+- to create each column's header, use 3 or more hyphens (---)
+- to separate each column, use pipes (|)
+
+```
+| Syntax | Description |
+|   ---  |   ------    |
+|  text  |   text      |
+```
+
+Output:
+
+| Syntax | Description |
+|   ---  |   ------    |
+|  text  |   text      |
+
+### #1 Alignment in Tables
+
+Use colon(:) to the left, right or both side of hyphens within header row to align text in columns to the left, right, or center.
+
+```
+|   Column1    |     Column2    |    Column3    |
+|     :---     |      :---:     |      ---:     |
+| left aligned | center aligned | right aligned |
+|    text1     |      text2     |     text3     |    
+```
+Output:
+
+|   Column1    |     Column2    |    Column3    |
+|     :---     |      :---:     |      ---:     |
+| left aligned | center aligned | right aligned |
+|    text1     |      text2     |     text3     |
+
+<br />
+
+<!-- ==================================== SYNTAX HIGHLIGHTING ======================================== -->
+## Syntax Highlighting
