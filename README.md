@@ -19,11 +19,10 @@
 - [Collapsible Section (Toggle)](#collapsible-section-toggle)          
 - [Tables](#tables)
 - [Syntax Highlighting](#syntax-highlighting)
-- Task Lists
-Footnotes
-Escape Sequence
-Emoji
-Mentioning people and teams
+- Footnotes
+- [Task Lists](#task-lists)
+- [Emoji](#emoji)
+- Mentioning people and teams
 
 <br /> 
 
@@ -142,6 +141,12 @@ This is **_italic & bold_** text 3
 This is __*italic & bold*__ text 4  
 
 ### #4 Strikethrough
+
+    Your ~~Deleted chats~~ will shown here.
+
+Output:
+
+Your ~~Deleted chats~~ will shown here.
 
 <br/>
 
@@ -474,3 +479,49 @@ Output:
 
 <!-- ==================================== SYNTAX HIGHLIGHTING ======================================== -->
 ## Syntax Highlighting
+
+To add syntax highlighting, specify a language next to the backticks before the code block.
+
+    ```javascript
+    function show(){
+        console.log("Hello World!!");
+    }
+    ```
+
+Output:
+
+```javascript
+function show(){
+    console.log("Hello World!!");
+}
+```
+
+<br />
+
+<!-- ==================================== TASK LISTS ======================================== -->
+## Task Lists
+
+also referred as Checklists and todo lists. 
+- To create a task list: add dashes (-) & brackets ([ ]) with space inside, in front of task lists
+- To select a checkbox, add 'x' in between brackets ([x])
+
+```
+- [x] item 1 done
+- [ ] item 2 incomplete
+- [ ] item 3 incomplete
+```
+
+Output:
+
+- [x] item 1 done
+- [ ] item 2 incomplete
+- [ ] item 3 incomplete
+
+<br />
+
+<!-- ==================================== EMOJI ======================================== -->
+## Emoji
+
+#### #1 Method1- Copying and Pasting Emoji
+
+#### #2 Method2- Using Emoji Shortcodes
