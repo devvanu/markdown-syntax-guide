@@ -1,6 +1,6 @@
 # Markdown Syntax Guide
 
-### Basic Syntax (Index) : 
+### Table of Contents : 
 
 - [Headings](#headings)  
 - [Paragraphs](#paragraphs)  
@@ -13,9 +13,6 @@
 - [Horizontal Rule](#horizontal-rule)   
 - [Links](#links)  
 - [Escaping Characters](#escaping-characters)   
-
-### Advanced Syntax (Index) :  
-
 - [Collapsible Section (Toggle)](#collapsible-section-toggle)          
 - [Tables](#tables)
 - [Syntax Highlighting](#syntax-highlighting)
@@ -522,6 +519,20 @@ Output:
 <!-- ==================================== EMOJI ======================================== -->
 ## Emoji
 
-#### #1 Method1- Copying and Pasting Emoji
+### #1 Method1- Copying and Pasting Emoji
 
-#### #2 Method2- Using Emoji Shortcodes
+Simply copy an emoji from a source and paste it into your doc. 🎉
+
+### #2 Method2- Using Emoji Shortcodes
+
+Begin and end with a colon and include the name of emoji.
+
+```
+This was hilarious :joy:
+```
+
+Output:
+
+This was hilarious :joy:
+
+- Check out [website](https://www.webfx.com/tools/emoji-cheat-sheet) and [github repo](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md) for Emoji Cheat Sheet
