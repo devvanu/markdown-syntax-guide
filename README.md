@@ -472,6 +472,20 @@ Output:
 | left aligned | center aligned | right aligned |
 |    text1     |      text2     |     text3     |
 
+### #2 Table with Multiple Lines
+
+```
+| Column1 | Column2 | Column3 |
+|   ---   |   ---   |   ---   |
+|  text1  |  text2  | text3 <br/> text4 <br/> text5 |
+```
+
+Output:
+
+| Column1 | Column2 | Column3 |
+|   ---   |   ---   |   ---   |
+|  text1  |  text2  | text3 <br/> text4 <br/> text5 |
+
 <br />
 
 <!-- ==================================== SYNTAX HIGHLIGHTING ======================================== -->
