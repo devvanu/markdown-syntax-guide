@@ -85,6 +85,10 @@ Heading 2
 
 <br/>
 
+When you use two or more headings, Github automatically generates a table of contents which you can access by clicking 3 dots before README.md within the file header. Each heading title is listed in the table of contents and you can click a title to navigate to the selected section.  
+
+<br/>
+
 <!-- ======================================== PARAGAPHS =============================================== -->
 ## Paragraphs
 
