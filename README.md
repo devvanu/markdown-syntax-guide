@@ -329,7 +329,7 @@ Output (all three will look same):
 <!-- ============================================ Links ============================================== -->
 ## Links
 
-can create by enclosing link text in brackets and then follow it with URL in parantheses.
+You can create by enclosing link text in brackets `[ ]` and then follow it with URL in parantheses `( )`.
 
 ```
 Search this on [Google](https://www.google.com/) instead.
@@ -517,8 +517,8 @@ function show(){
 ## Task Lists
 
 also referred as Checklists and todo lists. 
-- To create a task list: add dashes (-) & brackets ([ ]) with space inside, in front of task lists
-- To select a checkbox, add 'x' in between brackets ([x])
+- To create a task list: add dashes (-) & brackets `[ ]` with space inside, in front of task lists
+- To select a checkbox, add 'x' in between brackets `[x]`
 
 ```
 - [x] item 1 done
@@ -531,6 +531,14 @@ Output:
 - [x] item 1 done
 - [ ] item 2 incomplete
 - [ ] item 3 incomplete
+
+<br/>
+
+If a task list item description begins with a parenthesis, you'll need to escape it with `\`, example:
+
+```
+- [ ] \(optional) task description
+```
 
 <br />
 
