@@ -19,7 +19,7 @@
 - Footnotes
 - [Task Lists](#task-lists)
 - [Emoji](#emoji)
-- Mentioning people and teams
+- [Mentioning people and teams](#mentioning-people-and-teams)
 
 <br /> 
 
@@ -562,3 +562,11 @@ Output:
 This was hilarious :joy:
 
 - Check out [website](https://www.webfx.com/tools/emoji-cheat-sheet) and [github repo](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md) for Emoji Cheat Sheet
+
+
+<br />
+
+<!-- ==================================== MENTIONING PEOPLE AND TEAMS ======================================== -->
+## Mentioning people and teams
+
+You can mention a person or team on GitHub by typing `@` followed by their username or team name.
